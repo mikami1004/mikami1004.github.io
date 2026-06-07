@@ -1,8 +1,5 @@
-baseURL: https://example.org/
+baseURL: https://mikami1004.github.io/
 locale: en-us
 title: My New Hugo Project
 theme: ["PaperMod"]
 
-caches:
-  images:
-    dir: cacheDir/images
