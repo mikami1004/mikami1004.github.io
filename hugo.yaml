@@ -1,5 +1,29 @@
 baseURL: https://mikami1004.github.io/
-locale: en-us
-title: My New Hugo Project
+locale: ja-JP
+title: Rito's Portfolio
 theme: ["PaperMod"]
+
+enableEmoji: true # check 'https://github.com/ikatyang/emoji-cheat-sheet/'
+enableRobotsTXT: true
+
+pagination:   # 1ページに表示する記事数
+  pageSize: 5
+
+menus:
+  main:
+    - name: About
+      pageRef: /about # contentからの相対パス
+      weight: 1
+    - name: blog
+      pageRef: /posts
+      weight: 2
+
+params:
+  profileMode:
+    enabled: true
+    title: "I'm Rito"
+    subtitle: "Hi. My name is Rito.  I'm Shizuoka Univ. student."
+    imageUrl: "/images/profile.jpg"
+    imageWidth: 200
+    imageHeight: 200
 
