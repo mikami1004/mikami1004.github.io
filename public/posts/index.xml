@@ -6,8 +6,74 @@
     <description>Recent content in Posts on Rito&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 08 Jun 2026 09:10:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 09:57:37 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Cheetsheet</title>
+      <link>http://localhost:1313/posts/markdown-cheetsheet/</link>
+      <pubDate>Mon, 08 Jun 2026 09:57:37 +0900</pubDate>
+      <guid>http://localhost:1313/posts/markdown-cheetsheet/</guid>
+      <description>&lt;p&gt;Markdown初心者のため、Markdown記法のチートシートをまとめます。&lt;br&gt;
+hugoで使えるものを基準にまとめます。(goldmark?)&lt;/p&gt;
+&lt;h2 id=&#34;基本のシンタックス&#34;&gt;基本のシンタックス&lt;/h2&gt;
+&lt;p&gt;すべてのマークダウンアプリケーションはこれらが使えるらしい。&lt;/p&gt;
+&lt;h3 id=&#34;ヘッダー&#34;&gt;ヘッダー&lt;/h3&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# H1
+## H2
+### H3
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;表示&#34;&gt;表示&lt;/h4&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;h3 id=&#34;太字斜字&#34;&gt;太字、斜字&lt;/h3&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;**bold text**
+*italicized text*
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;表示-1&#34;&gt;表示&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;bold text&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;italicized text&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;引用&#34;&gt;引用&lt;/h3&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;gt; blockquote
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;表示-2&#34;&gt;表示&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;blockquote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;数字付きリスト&#34;&gt;数字付きリスト&lt;/h3&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;1. First item
+2. second item
+3. third item
+1. wtf
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;表示-3&#34;&gt;表示&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;second item&lt;/li&gt;
+&lt;li&gt;third item&lt;/li&gt;
+&lt;li&gt;wtf&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;数字はなんでもいいっぽい？&lt;/p&gt;
+&lt;h3 id=&#34;箇条書きリスト&#34;&gt;箇条書きリスト&lt;/h3&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;- First
+- Second
+- Third
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;表示-4&#34;&gt;表示&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;First&lt;/li&gt;
+&lt;li&gt;Second&lt;/li&gt;
+&lt;li&gt;Third&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;インラインコードコードブロック&#34;&gt;インラインコード、コードブロック&lt;/h3&gt;
+&lt;hr&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;`This is inline code`
+```
+This is code block
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;表示-5&#34;&gt;表示&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;This is inline code&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>hugoの使い方 gitでの更新方法</title>
       <link>http://localhost:1313/posts/how-to-use/</link>
@@ -34,7 +100,7 @@ or&lt;br&gt;
 &lt;li&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;br&gt;
 差分を表示。抜ける時はqキーを押す&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;git add xxx&lt;/code&gt;&lt;br&gt;
-雑にやるなら&lt;code&gt;git add -a&lt;/code&gt;&lt;/li&gt;
+雑にやるなら&lt;code&gt;git add -A&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;git commit -m &amp;quot;any comment&amp;quot;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;git push origin main&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
