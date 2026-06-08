@@ -27,3 +27,8 @@ params:
     imageWidth: 200
     imageHeight: 200
 
+  socialIcons:
+    - name: github
+      title: "This is my github account"
+      url: https://github.com/mikami1004
+
